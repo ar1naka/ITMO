@@ -1,0 +1,236 @@
+:root {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: rgb(34, 34, 34);
+
+    --border-color: rgb(185, 185, 185);
+    --boder: 1px solid var(--border-color);
+    --border-radius: 6px;
+    --caption-color: #3B5998;
+}
+
+html {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: calc(24px + 0.5rem);
+    right: 0;
+}
+
+header nav {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    margin: 0.5rem 0 2rem 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-right: 1rem;
+}
+
+header nav ul li .bor{
+    border-bottom: 3px solid var(--caption-color);
+}
+
+.middle {
+    display: flow-root;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+aside section {
+    border: var(--boder);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+aside section .header {
+    border-bottom: var(--boder);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→ ";
+    font-size: 1.1rem;
+}
+
+aside section .body {
+    padding: 0.25rem;
+}
+
+aside section .footer {
+    border-top: var(--boder);
+    padding: 0.25rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+main {
+    margin-right: 21rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: var(--boder);
+    text-align: center;
+}
+
+main .user-table{
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    position: relative;
+    height: 9rem;
+    padding: 5px;
+}
+main .user-table .user-name {
+    font-size: 30px;
+    color: #561a8b;
+}
+
+main .user-table img {
+    float: right;
+    margin-top: -2rem;
+}
+
+main .user-table .arrows{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+main article{
+    padding-bottom: 30px;
+}
+
+main article .title{
+    color: #3b5998;
+    font-family: verdana, arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+main article .information{
+    color: darkgray;
+    font-size: 14px;
+    margin-top: 0.25rem;
+    padding-bottom: 1.5rem;
+    font-family: verdana, sans-serif;
+
+}
+main article .information a{
+    font-weight: bold;
+}
+
+main article .body{
+    border-left: 4px solid #ccc;
+    padding-left: 13px;
+    font-size: 0.95rem;
+}
+
+main ul.attachment {
+    vertical-align: middle;
+    list-style-image: url(../img/paperclip-16x16.png);
+    text-decoration-color: #777;
+    padding-left: 0;
+    margin-left: calc(16px + 0.5rem);
+}
+
+main ul.attachment li {
+    color: #777;
+    font-size: 12px;
+}
+
+main article .footer {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+}
+
+main article .left,
+main article .right {
+    display: inline;
+}
+
+main article .footer .positive-score {
+    font-weight: bold;
+    color: green;
+}
+
+main article .footer .left *,
+main article .footer .right *{
+    vertical-align: middle;
+}
+
+main article .right {
+    float: right;
+    margin: 0.1rem;
+}
+
+main .datatable .caption {
+    background: #e1e1e1;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    padding: 0.2rem 0 0.2rem 0.5rem;
+}
+
+.datatable table {
+    border: 1px solid var(--border-color);
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+main .datatable table tbody tr:nth-child(2n-1) {
+    background: #f1f1f1b0;
+}
+
+td, th {
+    padding: 0.2em;
+    border-top: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    text-align: center;
+}
+
+
