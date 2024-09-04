@@ -1,0 +1,8 @@
+[#ftl]
+[#-- @implicitly included --]
+[#-- @ftlvariable name="users" type="ru.itmo.web.hw4.model.User[]" --]
+[#-- @ftlvariable name="posts" type="ru.itmo.web.hw4.model.Post[]" --]
+[#-- @ftlvariable name="current" type="java.lang.String" --]
+[#-- @ftlvariable name="user" type="ru.itmo.web.hw4.model.User" --]
+[#-- @ftlvariable name="post_id" type="java.lang.Long" --]
+[#-- @ftlvariable name="user_id" type="java.lang.Long" --]
