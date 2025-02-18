@@ -1,0 +1,16 @@
+type: marketplace
+title: ITMO Kotlin 2024. Classes and functions
+language: Russian
+summary: "Синтаксис Kotlin. Классы, коллекции, функции."
+programming_language: Kotlin
+content:
+  - 1-classes
+  - 2-containers
+  - 3-lambdas
+  - 4-extension-functions
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_11
+solutions_hidden: true
+vendor:
+  name: ITMO CTD

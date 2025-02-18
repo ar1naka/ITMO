@@ -1,0 +1,15 @@
+type: edu
+files:
+  - name: src/Task.kt
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: test/Tests.kt
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 06 Oct 2024 09:44:40 UTC"
+record: -1
